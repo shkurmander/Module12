@@ -7,8 +7,10 @@ namespace Ex12._2._11
         static void Main(string[] args)
         {
             Console.WriteLine("Цикл while");
-            int k = -1;
-            while(k<1)
+            int k = -1;                             //1й вариант
+            // int k = 2;                           //2й вариант
+            // int k = 0;                           //default
+            while (k<1)
             {
                 Console.WriteLine(k);
 
@@ -45,8 +47,9 @@ namespace Ex12._2._11
                 k++;
             }
             Console.WriteLine("Цикл do");
-            int t = -1;
-
+            int t = -1;                             //1й вариант
+            // int t = 2;                           //2й вариант
+            // int t = 0;                           //default
             do
             {
                 Console.WriteLine(t);
