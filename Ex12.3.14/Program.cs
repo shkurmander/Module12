@@ -2,6 +2,9 @@
 
 namespace Ex12._3._14
 {
+    /// <summary>
+    ///  Подсчет количества положительных чисел в массиве
+    /// </summary>
     class Program
     {
         static void Main(string[] args)
