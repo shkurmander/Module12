@@ -2,6 +2,9 @@
 
 namespace Ex12._3._10
 {
+    /// <summary>
+    ///  Перебор-вывод двумерного массива
+    /// </summary>
     class Program
     {
         static void Main(string[] args)
